@@ -1,0 +1,50 @@
+Options All -Indexes
+
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^(www.)?misistema.cr$
+
+RewriteRule ^([a-zA-Z0-9\-\=]+)$ index.php?module=$1
+
+#RewriteCond %{HTTPS} off
+
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]]
+
+#php_value max_input_vars 3000
+#php_value suhosin.get.max_vars 3000
+#php_value suhosin.post.max_vars 3000
+#php_value suhosin.request.max_vars 3000
+
+###### BEGIN EXPIRES
+#<IfModule mod_expires.c>
+#    ExpiresActive On
+#    ExpiresDefault "access plus 10 days"
+#    ExpiresByType text/css "access plus 1 week"
+#    ExpiresByType text/plain "access plus 1 month"
+#    ExpiresByType image/gif "access plus 1 month"
+#    ExpiresByType image/png "access plus 1 month"
+#    ExpiresByType image/jpeg "access plus 1 month"
+#    ExpiresByType application/x-javascript "access plus 1 month"
+#    ExpiresByType application/javascript "access plus 1 week"
+#    ExpiresByType application/x-icon "access plus 1 year"
+#</IfModule>
+###### END EXPIRES
+
+
+######Deny Rules
+#Order deny,allow
+#Deny from All
+#Allow from xxx.xxx.xxx.xxx
+#Allow from xxx.xxx.xxx.xxy
+
+######For Apache 2.4+
+#Require host xxx.xxx.xxx.xxx
+#Require host xxx.xxx.xxx.xxy
+
+<Files "cron_job-JT.php">
+	Order deny,allow
+	Allow from THIS_SERVER
+	Allow from ANOTHER_ALLOWED_SERVER
+	Allow from 127.0.0.1
+	Deny from all
+</Files>

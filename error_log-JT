@@ -1,0 +1,170 @@
+[29-Sep-2025 07:29:35 America/Costa_Rica] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 767
+[29-Sep-2025 07:29:35 America/Costa_Rica] PHP Warning:  foreach() argument must be of type array|object, int given in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 223
+[29-Sep-2025 07:29:35 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Class "Log" not found in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(135): CrudLogin::consultaSucursales('0')
+#1 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(18): LoginUsuario::consultaSucursales(0)
+#2 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(634): LoginUsuario::controlLoginModel('{"opcion":"cons...')
+#3 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modal/super-login.php(38): MvcController::cargaSucursalesLoginController()
+#4 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modules/dashboard.php(303): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(51): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/main-dash.php(3): MvcController::routeDashController()
+#7 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(16): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(33): MvcController::mainDash()
+#9 /opt/lampp/htdocs/MiFacturaCR/PHE/index.php(27): MvcController::main()
+#10 {main}
+  thrown in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php on line 130
+[29-Sep-2025 07:49:19 America/Costa_Rica] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 767
+[29-Sep-2025 07:49:19 America/Costa_Rica] PHP Warning:  foreach() argument must be of type array|object, int given in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 223
+[29-Sep-2025 07:49:19 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Class "Log" not found in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(135): CrudLogin::consultaSucursales('0')
+#1 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(18): LoginUsuario::consultaSucursales(0)
+#2 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(634): LoginUsuario::controlLoginModel('{"opcion":"cons...')
+#3 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modal/super-login.php(38): MvcController::cargaSucursalesLoginController()
+#4 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modules/dashboard.php(303): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(51): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/main-dash.php(3): MvcController::routeDashController()
+#7 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(16): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(33): MvcController::mainDash()
+#9 /opt/lampp/htdocs/MiFacturaCR/PHE/index.php(27): MvcController::main()
+#10 {main}
+  thrown in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php on line 130
+[01-Oct-2025 15:40:41 America/Costa_Rica] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 767
+[01-Oct-2025 15:40:41 America/Costa_Rica] PHP Warning:  foreach() argument must be of type array|object, int given in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 223
+[01-Oct-2025 15:40:41 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Class "Log" not found in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php:136
+Stack trace:
+#0 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(141): CrudLogin::consultaSucursales('0')
+#1 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(18): LoginUsuario::consultaSucursales(0)
+#2 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(634): LoginUsuario::controlLoginModel('{"opcion":"cons...')
+#3 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modal/super-login.php(38): MvcController::cargaSucursalesLoginController()
+#4 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modules/dashboard.php(303): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(51): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/main-dash.php(3): MvcController::routeDashController()
+#7 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(16): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(33): MvcController::mainDash()
+#9 /opt/lampp/htdocs/MiFacturaCR/PHE/index.php(27): MvcController::main()
+#10 {main}
+  thrown in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php on line 136
+[01-Oct-2025 16:21:59 America/Costa_Rica] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 767
+[01-Oct-2025 16:21:59 America/Costa_Rica] PHP Warning:  foreach() argument must be of type array|object, int given in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 223
+[01-Oct-2025 16:21:59 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Class "Log" not found in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php:138
+Stack trace:
+#0 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(143): CrudLogin::consultaSucursales('0')
+#1 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(18): LoginUsuario::consultaSucursales(0)
+#2 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(634): LoginUsuario::controlLoginModel('{"opcion":"cons...')
+#3 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modal/super-login.php(38): MvcController::cargaSucursalesLoginController()
+#4 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modules/dashboard.php(303): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(51): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/main-dash.php(3): MvcController::routeDashController()
+#7 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(16): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(33): MvcController::mainDash()
+#9 /opt/lampp/htdocs/MiFacturaCR/PHE/index.php(27): MvcController::main()
+#10 {main}
+  thrown in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php on line 138
+[01-Oct-2025 16:24:30 America/Costa_Rica] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 767
+[01-Oct-2025 16:24:30 America/Costa_Rica] PHP Warning:  foreach() argument must be of type array|object, int given in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php on line 223
+[01-Oct-2025 16:24:30 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Class "Log" not found in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php:138
+Stack trace:
+#0 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(143): CrudLogin::consultaSucursales('0')
+#1 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/models/login/loginModel.php(18): LoginUsuario::consultaSucursales(0)
+#2 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(634): LoginUsuario::controlLoginModel('{"opcion":"cons...')
+#3 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modal/super-login.php(38): MvcController::cargaSucursalesLoginController()
+#4 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/modules/dashboard.php(303): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(51): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/views/main-dash.php(3): MvcController::routeDashController()
+#7 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(16): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/controllers/clc-principal.php(33): MvcController::mainDash()
+#9 /opt/lampp/htdocs/MiFacturaCR/PHE/index.php(27): MvcController::main()
+#10 {main}
+  thrown in /opt/lampp/htdocs/MiFacturaCR/PHE/mvc/crud/login/crudLogin.php on line 138
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:06 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[03-Oct-2025 11:46:21 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiFacturaCR/PHE/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:47:47 America/Costa_Rica] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/controllers/clc-principal.php on line 767
+[07-Oct-2025 09:47:47 America/Costa_Rica] PHP Warning:  foreach() argument must be of type array|object, int given in /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/controllers/clc-principal.php on line 223
+[07-Oct-2025 09:47:47 America/Costa_Rica] PHP Fatal error:  Uncaught Error: Class "Log" not found in /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/crud/login/crudLogin.php:138
+Stack trace:
+#0 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/models/login/loginModel.php(143): CrudLogin::consultaSucursales('0')
+#1 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/models/login/loginModel.php(18): LoginUsuario::consultaSucursales(0)
+#2 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/controllers/clc-principal.php(634): LoginUsuario::controlLoginModel('{"opcion":"cons...')
+#3 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/views/modal/super-login.php(38): MvcController::cargaSucursalesLoginController()
+#4 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/views/modules/dashboard.php(322): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/controllers/clc-principal.php(51): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/views/main-dash.php(3): MvcController::routeDashController()
+#7 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/controllers/clc-principal.php(16): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/controllers/clc-principal.php(33): MvcController::mainDash()
+#9 /opt/lampp/htdocs/MiSistemaCR-DEV/index.php(27): MvcController::main()
+#10 {main}
+  thrown in /opt/lampp/htdocs/MiSistemaCR-DEV/mvc/crud/login/crudLogin.php on line 138
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2477
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
+[07-Oct-2025 09:48:07 America/Costa_Rica] PHP Warning:  Undefined array key 8 in /opt/lampp/htdocs/MiSistemaCR-DEV/vendor/spipu/html2pdf/src/Html2Pdf.php on line 2501
